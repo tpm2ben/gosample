@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gosample_1739144527841-pr-trigger-input-set
+  identifier: Build_gosample_1739144527841prtriggerinputset
+  orgIdentifier: TPMLab
+  projectIdentifier: Webhook
+  pipeline:
+    identifier: Build_gosample_1739144527841
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
